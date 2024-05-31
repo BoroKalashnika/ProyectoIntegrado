@@ -17,11 +17,11 @@ namespace Gestionis.Clases
                     if (conexion == null)
                     {
                         conexion = new MySqlConnection();
-                        conexion.ConnectionString = "server=sql11.freesqldatabase.com;" +
+                        conexion.ConnectionString = "server=;" +
                             "port=3306;" +
-                            "database=sql11699221;" +
-                            "uid=sql11699221;" +
-                            "pwd=2uxGcND89X;";
+                            "database=;" +
+                            "uid=;" +
+                            "pwd=;";
                     }
 
                     return conexion;
